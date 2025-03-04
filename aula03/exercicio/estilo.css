@@ -1,0 +1,21 @@
+h1{
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    margin-left: 800px;
+}
+
+p{font-size: 50px;
+    margin-left: 730px;
+    color: gray;
+}
+
+.boton{
+    color: gray;
+    margin-left: 735px;
+    font-size: 35px
+}
+
+.logo{
+    margin-left: 800px;
+}
