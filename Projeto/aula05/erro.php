@@ -6,9 +6,8 @@
     <title>Página de erro</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <style>
-        /* Estilo personalizado para a página de erro */
         body {
-            background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradiente moderno */
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
             font-family: 'Poppins', sans-serif;
             color: #fff;
             margin: 0;
@@ -67,7 +66,6 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        /* Responsividade */
         @media (max-width: 576px) {
             h1 {
                 font-size: 6rem;

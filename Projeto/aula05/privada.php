@@ -8,33 +8,26 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- Estilos personalizados -->
   <style>
-    /* Cor de fundo da página */
     body {
       background-color: #e6d9fa;
     }
 
-    /* Aplicando a cor #a475ef em títulos e elementos */
     h1, h2, h3, h4, h5, h6,
     .sitename,
     .navmenu a,
@@ -57,29 +50,24 @@
       background-color: #a475ef;
     }
 
-    /* Fundo branco para o menu e a página */
     .header,
     .dark-background {
       background-color: #ffffff;
     }
 
-    /* Removendo o efeito escuro da imagem */
     .hero img {
       opacity: 1;
       filter: brightness(100%);
     }
 
-    /* Removendo a imagem do menu */
     .profile-img {
       display: none;
     }
 
-    /* Removendo os ícones do menu */
     .navmenu a .navicon {
       display: none;
     }
 
-    /* Estilo do botão Desconectar */
     .navmenu .btn-desconectar {
       background-color: #a475ef;
       color: #fff;
@@ -101,7 +89,6 @@
   <header id="header" class="header d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
-    <!-- Removido o profile-img -->
     <div class="profile-img">
       <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
     </div>
@@ -127,16 +114,14 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
     <section id="hero" class="hero section">
       <img src="assets/img/img01.png" class="img-fluid" alt="" data-aos="fade-in">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>História do PHP</h2>
         <p>Tudo sobre a evolução do PHP</p>
       </div>
-    </section><!-- /Hero Section -->
+    </section>
 
-    <!-- Sobre o PHP Section -->
     <section id="about" class="about section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Sobre o PHP</h2>
@@ -176,9 +161,8 @@
           </div>
         </div>
       </div>
-    </section><!-- /Sobre o PHP Section -->
+    </section>
 
-    <!-- História Section -->
     <section id="history" class="history section">
       <div class="container section-title" data-aos="fade-up">
         <h2>História do PHP</h2>
@@ -196,9 +180,8 @@
           </div>
         </div>
       </div>
-    </section><!-- /História Section -->
+    </section>
 
-    <!-- Recursos Section -->
     <section id="features" class="features section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Principais Recursos do PHP</h2>
@@ -229,9 +212,8 @@
           </div>
         </div>
       </div>
-    </section><!-- /Recursos Section -->
+    </section>
 
-    <!-- Usos Section -->
     <section id="uses" class="uses section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Usos do PHP</h2>
@@ -262,7 +244,7 @@
           </div>
         </div>
       </div>
-    </section><!-- /Usos Section -->
+    </section>
 
   </main>
 
@@ -277,13 +259,10 @@
     </div>
   </footer>
 
-  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
@@ -292,7 +271,6 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
